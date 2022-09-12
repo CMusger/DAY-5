@@ -1,0 +1,166 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    background-color: #333;
+    height: 100%;
+    width: 100%;
+    padding: 1% 0;
+    overflow: hidden;
+    font-weight: bold;
+}
+
+.main {
+    background-color: #fff;
+    width: 40%;
+    margin: auto;
+    padding: 5px;
+    overflow: hidden;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 4px solid black;
+}
+
+.item1 {
+    display: flex;
+    width: 100%;
+    border-bottom: 2px solid black
+}
+
+.left {
+    width: 70%;
+    align-self: flex-end;
+}
+
+.right {
+    width: 15%;
+    text-align: end;
+    align-self: flex-end;
+}
+
+.item2{
+    display: flex;
+}
+
+.item3 {
+    display: flex;
+    margin-left: 10px;
+
+}
+
+.item4 {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    border-top: 4px solid black;
+    border-bottom: 2px solid blacK;
+}
+
+.item5 {
+    display: flex;
+}
+
+.item6 {
+    display: flex;
+    margin-left: 10px;
+    border-bottom: 2px solid blacK;
+}
+
+.item7 {
+    display: flex;
+    margin-left: 10px;
+    border-bottom: 2px solid blacK;
+}
+
+
+.item8 {
+    display: flex;
+    border-bottom: 2px solid blacK;
+}
+
+.item9 {
+    display: flex;
+    border-bottom: 2px solid blacK;
+}
+
+.item10 {
+    display: flex;
+    border-bottom: 2px solid blacK;
+}
+
+.item11 {
+    display: flex;
+    margin-left: 10px;
+    border-bottom: 2px solid blacK;
+}
+
+.item12 {
+    display: flex;
+    margin-left: 10px;
+}
+
+.item13 {
+    display: flex;
+    border-top: 2px solid blacK;
+    border-bottom: 4px solid black;
+}
+
+.item14 {
+    display: flex;
+    border-bottom: 2px solid blacK;
+}
+
+.item15 {
+    display: flex;
+    border-bottom: 2px solid blacK;
+}
+
+.item16 {
+    display: flex;
+    border-bottom: 2px solid blacK;
+}
+
+.item17 {
+    display: flex;
+    border-bottom: 2px solid blacK;
+}
+
+.item18 {
+    margin: 2px 0;
+    font-weight: lighter;
+}
+
+.end1 {
+    display: flex;
+    justify-items: space-between;
+    font-weight: normal;
+}
+
+.end1 > * {
+    flex: 1;
+}
+
+#xxx {
+    margin: 4px 0;
+    border-bottom: 2px solid black;
+}
+
+#ind {
+    padding-left: 14px;
+    margin-right: -14px;
+}
+
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: normal;
+}
+
+
+
